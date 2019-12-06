@@ -1,4 +1,5 @@
 package com.geekbrains.brains.cloud.server;
 
-public class MessageType {
-}
+import java.io.Serializable;
+
+public enum MessageType implements Serializable {FILE, COMMAND}
