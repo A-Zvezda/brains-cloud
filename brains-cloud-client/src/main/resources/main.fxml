@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="center" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.geekbrains.brains.cloud.client.Controller">
+
+    <HBox>
+      <GridPane alignment="TOP_CENTER" maxHeight="60.0" minHeight="60.0" prefHeight="60.0" prefWidth="497.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="276.0" minWidth="10.0" prefWidth="276.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="33.0" minHeight="30.0" prefHeight="33.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="185.0" minHeight="10.0" prefHeight="67.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+           <TextField fx:id="loginField" prefWidth="470.0" promptText="Логин" />
+           <PasswordField fx:id="passwordField" promptText="Пароль" GridPane.rowIndex="1" />
+            <Button fx:id="signIn" contentDisplay="CENTER" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" mnemonicParsing="false" onAction="#signIn" prefHeight="25.0" prefWidth="80.0" text="Sign in" GridPane.columnIndex="1" />
+            <Button fx:id="register" contentDisplay="CENTER" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="80.0" text="Register" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="logout" contentDisplay="CENTER" layoutX="357.0" layoutY="43.0" maxHeight="25.0" maxWidth="80.0" minHeight="25.0" minWidth="80.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="80.0" text="Login Out" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+    </HBox>
+    <HBox VBox.vgrow="ALWAYS">
+        <ListView fx:id="clientFiles" HBox.hgrow="ALWAYS" />
+        <ListView fx:id="serverFiles" HBox.hgrow="ALWAYS" />
+    </HBox>
+    <HBox>
+        <Button maxWidth="Infinity" onAction="#btnClickRefreshLocalFileList" text="Refresh Client File!" HBox.hgrow="ALWAYS" />
+        <Button maxWidth="Infinity" onAction="#btnClickRefreshServerFileList" text="Refresh Server File!" HBox.hgrow="ALWAYS" />
+      <Button mnemonicParsing="false" onAction="#btnClickSendFile" text="Send File" />
+      <Button layoutX="429.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnClickGetFile" text="Get File" />
+    </HBox>
+   <ListView fx:id="log" disable="true" prefHeight="97.0" prefWidth="497.0" />
+</VBox>

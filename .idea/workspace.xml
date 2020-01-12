@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c067c49c-bd4c-4303-9eba-1657993ba028" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectId" id="1ULR7NMAzqnjUYm1Xgk5YPrzH6V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server_storage/user" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server_storage/user" />
+      <recent name="$PROJECT_DIR$/brains-cloud-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/brains-cloud-client/src/main/java" />
+      <recent name="C:\Users\FlameXander\Desktop\brains-cloud\brains-cloud-client\src\main\java\com\geekbrains\brains\cloud\client" />
+      <recent name="C:\Users\FlameXander\Desktop\brains-cloud\brains-cloud-client\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn clean install -U" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.brains.cloud.client.Main" />
+      <module name="brains-cloud-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.brains.cloud.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.brains.cloud.server.Server" />
+      <module name="brains-cloud-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.brains.cloud.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.brains.cloud.client.Test" />
+      <module name="brains-cloud-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.brains.cloud.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="brains-cloud-server [assembly:single]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="assembly:single" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/brains-cloud-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="brains-cloud-server [jar:jar]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jar:jar" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/brains-cloud-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Maven.brains-cloud-server [assembly:single]" />
+      <item itemvalue="Maven.brains-cloud-server [jar:jar]" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Maven.brains-cloud-server [jar:jar]" />
+        <item itemvalue="Maven.brains-cloud-server [assembly:single]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c067c49c-bd4c-4303-9eba-1657993ba028" name="Default Changelist" comment="" />
+      <created>1575133720573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575133720573</updated>
+      <workItem from="1575133724468" duration="4264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="135" key="#brains-cloud-server_[assembly:single]_(1)" timestamp="1577726858165">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="586" y="135" key="#brains-cloud-server_[assembly:single]_(1)/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1577726858165" />
+    <state x="586" y="125" key="#brains-cloud-server_[package]_(1)" timestamp="1577723751691">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="586" y="125" key="#brains-cloud-server_[package]_(1)/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1577723751691" />
+    <state x="224" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578843612800">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="224" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578843612800" />
+    <state x="809" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577616672503">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="809" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1577616672503" />
+    <state x="557" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578848422284">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="557" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578848422283" />
+    <state x="694" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578845466352">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="694" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578845466352" />
+    <state x="100" y="100" width="1720" height="844" key="DiffContextDialog" timestamp="1578858544543">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="100" y="100" width="1720" height="844" key="DiffContextDialog/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578858544543" />
+    <state x="757" y="335" key="FileChooserDialogImpl" timestamp="1577714801597">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="757" y="335" key="FileChooserDialogImpl/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1577714801597" />
+    <state width="1874" height="340" key="GridCell.Tab.0.bottom" timestamp="1578872364440">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578872364440" />
+    <state width="1874" height="340" key="GridCell.Tab.0.center" timestamp="1578872364440">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.center/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578872364440" />
+    <state width="1874" height="340" key="GridCell.Tab.0.left" timestamp="1578872364440">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.left/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578872364440" />
+    <state width="1874" height="340" key="GridCell.Tab.0.right" timestamp="1578872364440">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.0.right/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578872364440" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1578872364440">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578872364440" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1578872364440">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578872364440" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1578872364440">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578872364440" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1578872364440">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578872364440" />
+    <state x="494" y="178" key="Maven.ArtifactSearchDialog" timestamp="1577623050572">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="494" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1577623050572" />
+    <state x="457" y="155" key="SettingsEditor" timestamp="1578855003532">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="457" y="155" key="SettingsEditor/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578855003532" />
+    <state x="639" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1578842777557">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="639" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1578842777557" />
+    <state x="624" y="238" width="672" height="677" key="run.anything.popup" timestamp="1577722210274">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="624" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1044/0.0.1920.1044@0.0.1920.1044" timestamp="1577722210274" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/brains-cloud-server/src/main/java/com/geekbrains/brains/cloud/server/DataBase.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/brains-cloud-client/src/main/java/com/geekbrains/brains/cloud/client/Controller.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/brains-cloud-server/src/main/java/com/geekbrains/brains/cloud/server/MainHandler.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
